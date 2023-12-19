@@ -14,6 +14,7 @@ Hola Paul"""
 comandos = {
     "abre notepad": lambda: subprocess.Popen(["notepad.exe"]),
     "abre google": lambda: webbrowser.open("https://www.google.com"),
+    "abre github": lambda: webbrowser.open("https://github.com/DavidPK8?tab=repositories"),
     "abre facebook": lambda: webbrowser.open("https://www.facebook.com"),
     "abre youtube": lambda: webbrowser.open("https://www.youtube.com"),
     "saludar amiguitos": lambda: pyautogui.write(saludo),
